@@ -26,5 +26,14 @@
 	outline: none;
 	padding: 8px 12px;
 	padding-top: 12px;
-	margin-top: 20px;
+}
+
+.input--check .input__field {
+	color: var(--color-title);
+}
+
+.input__check {
+	position: absolute;
+	top: 13px;
+	right: 12px;
 }

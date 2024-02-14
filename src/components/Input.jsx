@@ -1,4 +1,5 @@
 import React from "react";
+import IconCheck from "../assets/icon-check.svg";
 
 /**
  * Input component
@@ -12,8 +13,9 @@ export const Input = ({
 	defaultValue,
 	required,
 	disabled,
+	check,
 }) => (
-	<div className="input">
+	<div className={`input${check ? " input--check" : ""}`}>
 		<label className="input__label semi-bold" for={name}>
 			{label}
 		</label>
@@ -27,5 +29,6 @@ export const Input = ({
 			required={required}
 			disabled={disabled}
 		/>
+		{check && <img className="input__check" src={IconCheck} alt="Check" />}
 	</div>
 );
