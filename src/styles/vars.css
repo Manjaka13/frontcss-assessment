@@ -1,0 +1,15 @@
+/**
+ * Setup global vars
+ */
+
+* {
+	--color-primary: #1688fe;
+	--color-secondary: #008b5d;
+	--color-danger: #f25773;
+	--color-title: #14141f;
+	--color-text: #4c4c55;
+	--color-input: #595964;
+	--color-light: #595964;
+	--color-white: #ffffff;
+	--color-border: #ececed;
+}
