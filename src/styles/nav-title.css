@@ -11,6 +11,7 @@
 	display: flex;
 	align-items: center;
 	gap: 4px;
+	flex: 1;
 }
 
 .nav-title__group .icon {
@@ -24,4 +25,8 @@
 	color: var(--color-title);
 	position: relative;
 	top: 2px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 50%;
+	overflow: hidden;
 }

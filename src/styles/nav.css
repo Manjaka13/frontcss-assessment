@@ -7,3 +7,14 @@
 	flex: 1;
 	padding: 8px 4px;
 }
+
+.nav__list {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.nav__item {
+	padding: 0;
+	margin: 0;
+}

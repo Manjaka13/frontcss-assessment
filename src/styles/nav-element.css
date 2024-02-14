@@ -8,6 +8,7 @@
 	gap: 6px;
 	width: 100%;
 	padding: 6px 4px;
+	height: 32px;
 }
 
 .nav-element__text {
@@ -15,4 +16,8 @@
 	color: var(--color-text);
 	position: relative;
 	top: 2px;
+}
+
+.nav-element__icon {
+	width: 16px;
 }
