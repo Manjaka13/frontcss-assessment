@@ -4,4 +4,5 @@
 
 @import "./fonts.css";
 @import "./vars.css";
-@import "./general.css";
+@import "./global.css";
+@import "./nav-title.css";

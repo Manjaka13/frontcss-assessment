@@ -1,0 +1,19 @@
+.nav-title {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 6px 5px;
+	gap: 4px;
+	width: 100%;
+}
+
+.nav-title__icon {
+	padding: 4px 2px;
+	position: relative;
+	top: -2px;
+}
+
+.nav-title__title {
+	font-size: 13px;
+	color: var(--color-title);
+}
