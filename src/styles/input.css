@@ -1,0 +1,30 @@
+/**
+ * Input styles
+ */
+
+.input {
+	width: 100%;
+	position: relative;
+}
+
+.input__label {
+	font-size: 11px;
+	color: var(--color-text);
+	position: absolute;
+	top: -5px;
+	left: 12px;
+	background: var(--color-white);
+}
+
+.input__field {
+	display: block;
+	font-size: 15px;
+	color: var(--color-light);
+	width: 100%;
+	border: 1px var(--color-border) solid;
+	border-radius: 4px;
+	outline: none;
+	padding: 8px 12px;
+	padding-top: 12px;
+	margin-top: 20px;
+}
