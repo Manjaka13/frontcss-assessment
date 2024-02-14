@@ -2,6 +2,7 @@ import React from "react";
 import { Premium } from "./Premium";
 import { PersonalForm } from "./PersonalForm";
 import { Delete } from "./Delete";
+import { Footer } from "./Footer";
 
 /**
  * Main content
@@ -14,8 +15,9 @@ export const Main = () => (
 		<Delete />
 		<p className="main__info">
 			<span className="primary">Get in touch with our support team</span> if you
-			have any question or want to leave some feedback. We’ll be happy to hear from
+			have any question or want to leave some feedback. We'll be happy to hear from
 			you.
 		</p>
+		<Footer />
 	</div>
 );

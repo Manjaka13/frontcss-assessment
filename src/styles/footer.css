@@ -1,0 +1,27 @@
+/**
+ * Footer styles
+ */
+
+.footer {
+	border-top: 1px var(--color-border) solid;
+	margin-top: 16px;
+	padding-top: 16px;
+}
+
+.footer__list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	padding-bottom: 16px;
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.footer__list .item {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: var(--color-input);
+	cursor: pointer;
+}

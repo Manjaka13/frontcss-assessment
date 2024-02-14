@@ -29,3 +29,10 @@ export const NAV_BOARD_AGENT = [
 	"Board agent 1",
 	"Board agent 1",
 ];
+
+export const FOOTER = [
+	"Terms & Conditions",
+	"Privacy Policy",
+	"FAQ",
+	"Contact US",
+];
