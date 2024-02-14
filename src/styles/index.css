@@ -1,0 +1,7 @@
+/**
+ * Styles entry point
+ */
+
+@import "./fonts.css";
+@import "./vars.css";
+@import "./general.css";
