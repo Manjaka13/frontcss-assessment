@@ -1,19 +1,27 @@
 .nav-title {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	width: 100%;
 	padding: 6px 5px;
-	gap: 4px;
 	width: 100%;
 }
 
-.nav-title__icon {
-	padding: 4px 2px;
-	position: relative;
-	top: -2px;
+.nav-title__group {
+	display: flex;
+	align-items: center;
+	gap: 4px;
 }
 
-.nav-title__title {
+.nav-title__group .icon {
+	padding: 4px 2px;
+	gap: 10px;
+	cursor: pointer;
+}
+
+.nav-title__group .title {
 	font-size: 13px;
 	color: var(--color-title);
+	position: relative;
+	top: 2px;
 }
