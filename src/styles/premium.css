@@ -1,0 +1,42 @@
+/**
+ * Premium styles
+ */
+
+.premium {
+	border-radius: 8px;
+	background: var(--color-secondary);
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 24px;
+}
+
+.premium__image {
+	width: 72px;
+	height: 72px;
+	margin: 0;
+	padding: 0;
+	background: var(--color-white);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.premium__content {
+	flex: 1;
+}
+
+.premium__content .title {
+	color: var(--color-white);
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+
+.premium__content .content {
+	color: var(--color-white);
+	font-size: 15px;
+	line-height: 22px;
+	text-align: justify;
+}

@@ -38,3 +38,7 @@ body {
 .semi-bold {
 	font-family: "Gilroy SemiBold";
 }
+
+#root {
+	display: flex;
+}
