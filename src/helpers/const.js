@@ -1,5 +1,5 @@
 /**
- * Holds our constants
+ * Holds our texts
  */
 
 export const NAV_TOP_SEARCH = [
