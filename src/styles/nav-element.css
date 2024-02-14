@@ -1,0 +1,18 @@
+/**
+ * Nav element styles
+ */
+
+.nav-element {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	width: 100%;
+	padding: 6px 4px;
+}
+
+.nav-element__text {
+	font-size: 13px;
+	color: var(--color-text);
+	position: relative;
+	top: 2px;
+}
