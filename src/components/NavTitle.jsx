@@ -11,6 +11,6 @@ export const NavTitle = ({ icon, children, add }) => (
 			<img className="icon" src={icon} alt="Icon" />
 			<p className="title bold">{children}</p>
 		</div>
-		{add && <img classname="nav-title__icon" src={Icon} alt="Icon" />}
+		{add && <img className="nav-title__icon" src={Icon} alt="Icon" />}
 	</div>
 );
