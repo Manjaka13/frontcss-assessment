@@ -1,0 +1,35 @@
+/**
+ * Profile account styles
+ */
+
+.nav-account {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 16px;
+	border-top: 1px var(--color-border) solid;
+}
+
+.nav-account__group {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.nav-account__name {
+	color: var(--color-text);
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.nav-account__image {
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.nav-account__icon {
+	cursor: pointer;
+}
