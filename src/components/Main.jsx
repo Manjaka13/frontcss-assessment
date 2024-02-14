@@ -1,6 +1,6 @@
 import React from "react";
 import { Premium } from "./Premium";
-import { Input } from "./Input";
+import { PersonalForm } from "./PersonalForm";
 
 /**
  * Main content
@@ -9,12 +9,6 @@ import { Input } from "./Input";
 export const Main = () => (
 	<div className="main">
 		<Premium />
-		<Input
-			name="test"
-			label="First Name"
-			defaultValue="Petter"
-			placeholder="Enter your name"
-			type="text"
-		/>
+		<PersonalForm />
 	</div>
 );

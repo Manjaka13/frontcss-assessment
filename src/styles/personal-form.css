@@ -1,0 +1,59 @@
+/**
+ * Personal form styles
+ */
+
+.personal-form {
+	margin-top: 32px;
+}
+
+.personal-form__content {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+}
+
+.personal-form__title {
+	color: var(--color-title);
+	font-size: 24px;
+}
+
+.personal-form__form {
+	flex: 1;
+}
+
+.personal-form__form .group {
+	display: flex;
+	gap: 16px;
+	margin-top: 16px;
+}
+
+.personal-form__form .info {
+	margin-top: 16px;
+	font-size: 15px;
+	color: var(--color-text);
+}
+
+.personal-form__form .primary {
+	cursor: pointer;
+}
+
+.personal-form__form .submit {
+	border-radius: 4px;
+	border: none;
+	background: var(--color-primary);
+	color: var(--color-white);
+	padding: 16px;
+	font-size: 15px;
+	min-width: 170px;
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+.personal-form__check {
+	margin-top: 16px;
+	color: var(--color-text);
+}
+
+.personal-form__check .label {
+	margin-left: 8px;
+}
