@@ -1,0 +1,27 @@
+/**
+ * Delete account styles
+ */
+
+.delete {
+	border-radius: 8px;
+	margin-top: 16px;
+	padding: 16px;
+	border: 1px var(--color-border) solid;
+}
+
+.delete__title {
+	font-size: 17px;
+}
+
+.delete__info {
+	font-size: 15px;
+	color: var(--color-text);
+	margin-top: 16px;
+}
+
+.delete__confirm {
+	color: var(--color-danger);
+	margin-top: 16px;
+	cursor: pointer;
+	display: inline-block;
+}
